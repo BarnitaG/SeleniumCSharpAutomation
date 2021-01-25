@@ -35,6 +35,7 @@ namespace PracticeSeleniumWIthCsharp
             CustomControl.combobox("ContentPlaceHolder1_AllMealsCombo", "Almonds");
 
             Assert.Pass();
+            Console.WriteLine("Test Completed");
         }
 
        [TearDown]
